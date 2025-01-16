@@ -1,7 +1,17 @@
-const http = require('http');
+// const http = require('http');
 
-const server = http.createServer((req, res) => {
-    console.log(req.url, req.headers, req.method);
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const app = express();
+
+app.set('view engine', 'ejs');
+
+app.use(bodyParser.urlencoded({extended: false}));
+
+
+const PORT = 3000;
+
+app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT}...`);
 });
-
-server.listen(3000);
