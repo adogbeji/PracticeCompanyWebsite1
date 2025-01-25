@@ -24,4 +24,50 @@ body {
   color: #000000;
 }
 
+._0052 {
+  display: grid;
+  grid-template-rows: repeat(4, min-content) 20vw min-content;
+  grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+}
+
+._0052 > * {
+  font-size: 2.6rem;
+  padding: 0.5rem;
+}
+
+._0052-sect_1 {
+  background-color: #0E49B5;
+  grid-column: full-start/full-end;
+}
+
+._0052-sect_2 {
+  background-color: #808080;
+  grid-column: full-start/col-end 6;
+}
+
+._0052-sect_3 {
+  background-color: #F4A4B4;
+  grid-column: col-start 7/full-end;
+}
+
+._0052-sect_4 {
+  background-color: #00FF00;
+  grid-column: full-start/full-end;
+}
+
+._0052-sect_5 {
+  background-color: #FFA500;
+  grid-column: full-start/full-end;
+}
+
+._0052-sect_6 {
+  background-color: #F5F5DC;
+  grid-column: full-start/full-end;
+}
+
+._0052-sect_7 {
+  background-color: #333333;
+  grid-column: full-start/full-end;
+}
+
 /*# sourceMappingURL=styles.css.map */
