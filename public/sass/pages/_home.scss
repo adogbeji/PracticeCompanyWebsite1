@@ -12,6 +12,47 @@
 ._0052-sect_1 {
     background-color: #0E49B5;
     grid-column: full-start / full-end;
+
+    &-topnav {
+        /* Add a black background color to the top navigation */
+        // background-color: #333333;
+        background-color: inherit;  // Takes background colour set on its parent
+        // overflow: hidden;  // Hides overflow (required)
+        padding: .8rem;  // Creates space inside the navbar (optional, but recommended!)
+
+        position: relative;  // Used to position main dropdown & dot dropdown (required)
+
+        display: flex;
+        align-items: center;
+
+        column-gap: 10%;  // Creates space between icon & links, dropdown, search bar etc
+
+
+        &__logo-link {
+            // background-color: grey;  // Testing
+            display: inline-block;
+            text-decoration: none;
+        }
+
+
+        /* Mobile Navbar */
+        &-mobilenav {
+            /* Add a black background color to the top navigation */
+            // background-color: #333333;
+            background-color: inherit;  // Takes background colour set on its parent
+            // overflow: hidden;  // Hides overflow (required)
+
+            // padding: .3rem 0;  // Top and bottom padding increases height (optional)
+
+            padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            display: none;  // Testing
+        }
+    }
 }
 
 ._0052-sect_2 {

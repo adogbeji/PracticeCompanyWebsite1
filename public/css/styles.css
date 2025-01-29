@@ -39,6 +39,29 @@ body {
   background-color: #0E49B5;
   grid-column: full-start/full-end;
 }
+._0052-sect_1-topnav {
+  /* Add a black background color to the top navigation */
+  background-color: inherit;
+  padding: 0.8rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 10%;
+  /* Mobile Navbar */
+}
+._0052-sect_1-topnav__logo-link {
+  display: inline-block;
+  text-decoration: none;
+}
+._0052-sect_1-topnav-mobilenav {
+  /* Add a black background color to the top navigation */
+  background-color: inherit;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
 
 ._0052-sect_2 {
   background-color: #808080;
