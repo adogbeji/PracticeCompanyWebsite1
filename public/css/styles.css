@@ -125,6 +125,7 @@ body {
   align-items: center;
   display: none;
   /* Hamburger menu icon */
+  /* Menu links */
 }
 ._0052-sect_1-topnav-mobilenav__logo-link {
   display: inline-block;
@@ -142,6 +143,23 @@ body {
   background-color: #FFFFFF;
   width: 3rem;
   height: 0.3rem;
+}
+._0052-sect_1-topnav-mobilenav__mobile-menu {
+  background-color: #555555;
+  display: none;
+}
+._0052-sect_1-topnav-mobilenav__mobile-menu--pad-1_5 {
+  padding: 1.5rem;
+}
+._0052-sect_1-topnav-mobilenav__link-dropdown-search-box {
+  display: none;
+}
+._0052-sect_1-topnav-mobilenav__link {
+  font-size: 1.5rem;
+  color: #F2F2F2;
+  text-decoration: none;
+  padding: 1.4rem 1.6rem 1.4rem 0.48rem;
+  display: block;
 }
 
 ._0052-sect_2 {
