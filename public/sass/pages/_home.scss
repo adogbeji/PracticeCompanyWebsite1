@@ -23,6 +23,7 @@
         position: relative;  // Used to position main dropdown & dot dropdown (required)
 
         display: flex;
+        justify-content: space-between;
         align-items: center;
 
         column-gap: 10%;  // Creates space between icon & links, dropdown, search bar etc
@@ -32,11 +33,13 @@
             // background-color: grey;  // Testing
             display: inline-block;
             text-decoration: none;
+            color: #F2F2F2;
         }
 
         &__link-box {
-            // background-color: grey;  // Testing
-            flex: 0 0 80%;  // Reference for search bar size
+            background-color: grey;  // Testing
+            // flex: 0 0 80%;  // Reference for search bar size
+            flex: 0 0 auto;  // Takes up the exact space it needs
 
             display: flex;
             align-items: center;

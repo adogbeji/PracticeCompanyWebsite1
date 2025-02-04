@@ -45,6 +45,7 @@ body {
   padding: 0.8rem;
   position: relative;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   column-gap: 10%;
   /* Style the links inside the navigation bar */
@@ -53,9 +54,11 @@ body {
 ._0052-sect_1-topnav__logo-link {
   display: inline-block;
   text-decoration: none;
+  color: #F2F2F2;
 }
 ._0052-sect_1-topnav__link-box {
-  flex: 0 0 80%;
+  background-color: grey;
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
 }
