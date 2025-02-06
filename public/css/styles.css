@@ -39,6 +39,14 @@ body {
   background-color: #0E49B5;
   grid-column: full-start/full-end;
 }
+._0052-sect_1-topnav {
+  /* Add a purple background color to the top navigation */
+  background-color: inherit;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 ._0052-sect_2 {
   background-color: #808080;
