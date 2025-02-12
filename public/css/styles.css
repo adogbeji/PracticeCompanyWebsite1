@@ -55,16 +55,17 @@ body {
   margin-left: 0.6rem;
 }
 ._0052-sect_1-topnav__link-dot-dropdown-box {
-  margin-right: auto;
+  background-color: grey;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex: 0 0 60%;
 }
 ._0052-sect_1-topnav__link-box {
+  background-color: #00FF00;
   flex: 0 0 90%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   column-gap: 0.8rem;
 }
 ._0052-sect_1-topnav__link {
@@ -72,6 +73,8 @@ body {
   color: #FFFFFF;
   display: inline-block;
   text-decoration: none;
+  /* Dropdown Content (Hidden by Default) */
+  /* Style the links inside the dropdown */
 }
 ._0052-sect_1-topnav__link:hover {
   color: rgb(229.5, 229.5, 229.5);
@@ -87,6 +90,32 @@ body {
   width: 2.1rem;
   height: 2.1rem;
   fill: #000000;
+}
+._0052-sect_1-topnav__link-dot_2-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 103%;
+  min-width: 14.5rem;
+  background-color: #F1F1F1;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* This class will be added by JavaScript to display the dropdown menu when the 
+      user clicks */
+}
+._0052-sect_1-topnav__link-dot_2-dropdown-content--show {
+  display: block;
+}
+._0052-sect_1-topnav__link-dot_2-link {
+  font-size: 1.5rem;
+  color: #000000;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: none;
+  /* Add a black background to dropdown links on hover */
+}
+._0052-sect_1-topnav__link-dot_2-link:hover {
+  color: #EEEEEE;
+  background-color: #333333;
 }
 ._0052-sect_1-topnav-mobilenav {
   /* Add same background color to mobile navigation */
