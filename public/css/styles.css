@@ -57,9 +57,9 @@ body {
 ._0052-sect_1-topnav__link-dot-dropdown-box {
   background-color: grey;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
-  flex: 0 0 60%;
+  flex: 0 0 20%;
 }
 ._0052-sect_1-topnav__link-box {
   background-color: #00FF00;
@@ -69,7 +69,7 @@ body {
   column-gap: 0.8rem;
 }
 ._0052-sect_1-topnav__link {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #FFFFFF;
   display: inline-block;
   text-decoration: none;

@@ -38,10 +38,12 @@
             // margin-right: auto;  // Pushes links away from icons & profile picture
 
             display: flex;
-            justify-content: space-evenly;
+            // justify-content: space-evenly;
+            justify-content: flex-end;
             align-items: center;
 
-            flex: 0 0 60%;
+            // flex: 0 0 60%;
+            flex: 0 0 20%;
         }
 
         &__link-box {  // Used to position links from responsive dropdown at smaller breakpoints
@@ -57,7 +59,8 @@
         }
 
         &__link {
-            font-size: 1.4rem;
+            // font-size: 1.4rem;
+            font-size: 1.5rem;
             color: #FFFFFF;
             display: inline-block;
             text-decoration: none;
