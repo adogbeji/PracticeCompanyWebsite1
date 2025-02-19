@@ -2,3 +2,18 @@
 
 1) Roboto (wt. 100 - 900)
 2) Smooch Sans (wt. 100 - 900)
+
+--- Colour Scheme ---
+
+Colours being used:
+
+1) #4635B1
+2) #B771E5
+3) #AEEA94
+4) #FFFBCA
+
+Link to colour palette:
+
+https://colorhunt.co/palette/4635b1b771e5aeea94fffbca
+
+NB: All the colour hex codes can be found at the above link

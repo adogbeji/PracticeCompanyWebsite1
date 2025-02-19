@@ -6,17 +6,19 @@
 
 ._0052 > * {
     font-size: 2.6rem;
-    padding: .5rem;
+    // padding: .5rem;
 }
 
 ._0052-sect_1 {
-    background-color: #0E49B5;
+    // background-color: #0E49B5;
+    background-color: #4635B1;
     grid-column: full-start / full-end;
 
     &-topnav {
         /* Add a purple background color to the top navigation */
         // background-color: #9327D6;
         background-color: inherit;  // Takes background colour set on its parent
+        padding: .8rem;  // Creates space inside the navbar (optional, but recommended!)
 
         position: relative;  // Used to position responsive dropdowns (required)
 
@@ -234,8 +236,18 @@
 }
 
 ._0052-sect_2 {
-    background-color: #808080;
+    // background-color: #808080;
+    background-color: #FFFBCA;
     grid-column: full-start / col-end 6;
+
+    &-text-box-1 {
+        background-color: #FF0000;  // Testing
+        width: 60%;
+    }
+
+    &-text-1 {
+        font-size: 3.2rem;
+    }
 }
 
 ._0052-sect_3 {
