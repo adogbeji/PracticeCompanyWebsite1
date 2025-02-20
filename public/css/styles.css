@@ -24,14 +24,164 @@ body {
   color: #000000;
 }
 
-._0052 {
-  display: grid;
-  grid-template-rows: repeat(4, min-content) 20vw min-content;
-  grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+.btn {
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 1.25rem 1.2rem;
+  min-width: 8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn--lg {
+  padding: 1.5rem 1.2rem;
+}
+.btn--sm {
+  padding: 0.85rem 1.2rem;
+}
+.btn--block {
+  width: 100%;
+  display: block;
+}
+.btn--link {
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+}
+.btn--link-sm {
+  padding: 0.65rem 1.2rem;
+}
+.btn--link-lg {
+  padding: 1.4rem 1.2rem;
+}
+.btn--primary {
+  background-color: #0E49B5;
+  color: #FFFFFF;
+}
+.btn--primary:hover {
+  background-color: rgb(12.1692307692, 63.4538461538, 157.3307692308);
+}
+.btn--secondary {
+  background-color: #808080;
+  color: #050505;
+}
+.btn--secondary:hover {
+  background-color: rgb(115.25, 115.25, 115.25);
+}
+.btn--danger {
+  background-color: #F44336;
+  color: #050505;
+}
+.btn--danger:hover {
+  background-color: rgb(245.3231132075, 89.6132075472, 78.1768867925);
+}
+.btn--success {
+  background-color: #04AA6D;
+  color: #050505;
+}
+.btn--success:hover {
+  background-color: rgb(4.5862068966, 194.9137931034, 124.974137931);
+}
+.btn--info {
+  background-color: #2196F3;
+  color: #050505;
+}
+.btn--info:hover {
+  background-color: rgb(12.8461538462, 138.0961538462, 237.6538461538);
+}
+.btn--warning {
+  background-color: #FF9800;
+  color: #050505;
+}
+.btn--warning:hover {
+  background-color: rgb(255, 162.3, 25.5);
+}
+.btn--dark {
+  background-color: #050505;
+  color: #FFFFFF;
+}
+.btn--dark:hover {
+  color: rgb(242.25, 242.25, 242.25);
+}
+.btn--royal {
+  background-color: #BD00AA;
+  color: #FFFFFF;
+}
+.btn--royal:hover {
+  background-color: rgb(163.5, 0, 147.0634920635);
+}
+.btn--outline-primary {
+  background-color: transparent;
+  border: 0.15rem solid #0E49B5;
+}
+.btn--outline-primary:hover {
+  background-color: #0E49B5;
+  color: #FFFFFF;
+}
+.btn--outline-secondary {
+  background-color: transparent;
+  border: 0.15rem solid #808080;
+}
+.btn--outline-secondary:hover {
+  background-color: #808080;
+  color: #050505;
+}
+.btn--outline-danger {
+  background-color: transparent;
+  border: 0.15rem solid #F44336;
+}
+.btn--outline-danger:hover {
+  background-color: #F44336;
+  color: #050505;
+}
+.btn--outline-success {
+  background-color: transparent;
+  border: 0.15rem solid #04AA6D;
+}
+.btn--outline-success:hover {
+  background-color: #04AA6D;
+  color: #050505;
+}
+.btn--outline-info {
+  background-color: transparent;
+  border: 0.15rem solid #2196F3;
+  color: #050505;
+}
+.btn--outline-info:hover {
+  background-color: #2196F3;
+  color: #050505;
+}
+.btn--outline-warning {
+  background-color: transparent;
+  border: 0.15rem solid #FF9800;
+  color: #050505;
+}
+.btn--outline-warning:hover {
+  background-color: #FF9800;
+  color: #050505;
+}
+.btn--outline-dark {
+  background-color: transparent;
+  border: 0.15rem solid #050505;
+  color: #050505;
+}
+.btn--outline-dark:hover {
+  background-color: #050505;
+  color: #FFFFFF;
+}
+.btn--outline-royal {
+  background-color: transparent;
+  border: 0.15rem solid #BD00AA;
+  color: #050505;
+}
+.btn--outline-royal:hover {
+  background-color: #BD00AA;
+  color: #FFFFFF;
 }
 
-._0052 > * {
-  font-size: 2.6rem;
+._0052 {
+  display: grid;
+  grid-template-rows: min-content 40vw repeat(2, min-content) 20vw min-content;
+  grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
 }
 
 ._0052-sect_1 {
@@ -49,6 +199,7 @@ body {
   /* Mobile Navbar */
 }
 ._0052-sect_1-topnav__logo-link {
+  font-size: 2.6rem;
   color: #FFFFFF;
   display: inline-block;
   text-decoration: none;
@@ -69,7 +220,7 @@ body {
   column-gap: 0.8rem;
 }
 ._0052-sect_1-topnav__link {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #FFFFFF;
   display: inline-block;
   text-decoration: none;
@@ -167,13 +318,28 @@ body {
 ._0052-sect_2 {
   background-color: #FFFBCA;
   grid-column: full-start/col-end 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 ._0052-sect_2-text-box-1 {
   background-color: #FF0000;
   width: 60%;
 }
 ._0052-sect_2-text-1 {
-  font-size: 3.2rem;
+  font-size: 4.6rem;
+}
+._0052-sect_2-text-box-2 {
+  background-color: #FF0000;
+  width: 60%;
+}
+._0052-sect_2-text-2 {
+  font-size: 2.4rem;
+}
+._0052-sect_2-button-box {
+  background-color: #00FF00;
+  width: 60%;
 }
 
 ._0052-sect_3 {

@@ -1,13 +1,13 @@
 ._0052 {
     display: grid;
-    grid-template-rows: repeat(4, min-content) 20vw min-content;
+    grid-template-rows: min-content 40vw repeat(2, min-content) 20vw min-content;
     grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
 }
 
-._0052 > * {
-    font-size: 2.6rem;
-    // padding: .5rem;
-}
+// ._0052 > * {
+//     font-size: 2.6rem;
+//     padding: .5rem;
+// }
 
 ._0052-sect_1 {
     // background-color: #0E49B5;
@@ -29,6 +29,7 @@
 
         &__logo-link {
             // background-color: grey;  // Testing
+            font-size: 2.6rem;
             color: #FFFFFF;
             display: inline-block;
             text-decoration: none;
@@ -62,7 +63,7 @@
 
         &__link {
             // font-size: 1.4rem;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             color: #FFFFFF;
             display: inline-block;
             text-decoration: none;
@@ -240,13 +241,37 @@
     background-color: #FFFBCA;
     grid-column: full-start / col-end 6;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    // display: grid;
+    // grid-template-rows: repeat(6, 1fr);
+    // grid-template-columns: repeat(6, 1fr);
+
     &-text-box-1 {
         background-color: #FF0000;  // Testing
         width: 60%;
     }
 
     &-text-1 {
-        font-size: 3.2rem;
+        font-size: 4.6rem;
+    }
+
+    &-text-box-2 {
+        background-color: #FF0000;  // Testing
+        width: 60%;
+    }
+
+    &-text-2 {
+        font-size: 2.4rem;
+    }
+
+    &-button-box {
+        background-color: #00FF00;  // Testing
+        width: 60%;
     }
 }
 
