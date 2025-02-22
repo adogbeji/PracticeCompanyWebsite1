@@ -279,6 +279,7 @@
 
     &-button {
         width: 50%;
+        text-align: center;  // Centres text since it now has a width (required)
         border-radius: .3rem;
     }
 }
