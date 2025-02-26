@@ -350,8 +350,20 @@ body {
 ._0052-sect_3 {
   background-color: #F4A4B4;
   grid-column: col-start 7/full-end;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
 }
-
+._0052-sect_3-photo-1, ._0052-sect_3-photo-2, ._0052-sect_3-photo-3 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+._0052-sect_3-photo-1 {
+  grid-row: 5/7;
+  grid-column: 3/span 3;
+}
 ._0052-sect_4 {
   background-color: #00FF00;
   grid-column: full-start/full-end;
