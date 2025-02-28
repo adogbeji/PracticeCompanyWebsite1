@@ -360,6 +360,13 @@ body {
   background-size: cover;
   transform: scale(1);
 }
+._0052-sect_3 > * {
+  transition: all 0.6s;
+}
+._0052-sect_3 > *:hover {
+  z-index: 3;
+  transform: scale(1.04);
+}
 ._0052-sect_3-photo-1, ._0052-sect_3-photo-2, ._0052-sect_3-photo-3 {
   width: 100%;
   height: auto;
@@ -376,6 +383,7 @@ body {
 ._0052-sect_3-photo-3 {
   grid-row: 3/5;
   grid-column: 5/8;
+  z-index: -1;
 }
 
 ._0052-sect_4 {

@@ -305,6 +305,17 @@
     transform: scale(1);
 
 
+    & > * {
+        transition: all .6s;
+    }
+
+
+    & > *:hover {
+        z-index: 3;
+        transform: scale(1.04);
+    }
+
+
     &-photo-1, &-photo-2, &-photo-3 {
         width: 100%;
         height: auto;
@@ -324,6 +335,8 @@
     &-photo-3 {
         grid-row: 3 / 5;
         grid-column: 5 / 8;
+
+        z-index: -1;  // Places image below all others
     }
 }
 
