@@ -361,11 +361,13 @@ body {
   transform: scale(1);
 }
 ._0052-sect_3 > * {
-  transition: all 0.6s;
+  transition: transform 0.6s;
 }
 ._0052-sect_3 > *:hover {
   z-index: 3;
   transform: scale(1.04);
+  outline: 0.8rem solid #FF0000;
+  outline-offset: 0.6rem;
 }
 ._0052-sect_3-photo-1, ._0052-sect_3-photo-2, ._0052-sect_3-photo-3 {
   width: 100%;

@@ -306,13 +306,17 @@
 
 
     & > * {
-        transition: all .6s;
+        transition: transform .6s;
+        // outline: .8rem solid #FF0000;
+        // outline-offset: .6rem;
     }
 
 
     & > *:hover {
         z-index: 3;
         transform: scale(1.04);
+        outline: .8rem solid #FF0000;
+        outline-offset: .6rem;
     }
 
 
