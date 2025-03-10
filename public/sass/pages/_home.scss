@@ -345,7 +345,8 @@
 }
 
 ._0052-sect_4 {
-    background-color: #00FF00;
+    // background-color: #00FF00;
+    background-color: #AEEA94;
     grid-column: full-start / full-end;
 
     &-text-box-1 {
@@ -358,6 +359,14 @@
 
     &-text-1 {
         font-size: 2.8rem;
+    }
+
+    &-container {
+        background-color: #FFFF00;  // Testing
+    }
+
+    &-number-text-box-1 {
+        background-color: #0000FF;  // Testing
     }
 }
 
