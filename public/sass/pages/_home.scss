@@ -368,6 +368,14 @@
     &-number-text-box-1 {
         background-color: #0000FF;  // Testing
     }
+
+    &-number-box {
+        width: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        border-radius: 50%;
+        border: .2rem solid #050505;
+    }
 }
 
 ._0052-sect_5 {
