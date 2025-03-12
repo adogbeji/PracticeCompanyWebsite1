@@ -404,6 +404,8 @@ body {
 }
 ._0052-sect_4-container {
   background-color: #FFFF00;
+  display: flex;
+  justify-content: flex-start;
 }
 ._0052-sect_4-number-text-box-1 {
   background-color: #0000FF;
@@ -414,6 +416,16 @@ body {
   text-align: center;
   border-radius: 50%;
   border: 0.2rem solid #050505;
+  font-size: 2.6rem;
+}
+._0052-sect_4-text-box-2 {
+  background-color: #FF0000;
+}
+._0052-sect_4-text-2 {
+  font-size: 2rem;
+}
+._0052-sect_4-text-3 {
+  font-size: 1.4rem;
 }
 
 ._0052-sect_5 {
