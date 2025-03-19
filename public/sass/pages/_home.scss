@@ -354,6 +354,7 @@
         width: 90%;
         margin: 0 auto;
         margin-top: 2rem;
+        margin-bottom: 2rem;
         text-align: center;
     }
 
@@ -362,7 +363,7 @@
     }
 
     &-container {
-        background-color: #FFFF00;  // Testing
+        // background-color: #FFFF00;  // Testing
 
         display: flex;
         justify-content: center;
@@ -371,7 +372,7 @@
     }
 
     &-number-text-box-1 {
-        background-color: #0000FF;  // Testing
+        // background-color: #0000FF;  // Testing
 
         flex: 0 0 30%;
 
@@ -383,13 +384,13 @@
     }
 
     &-number-text-box-2 {
-        background-color: #0000FF;  // Testing
+        // background-color: #0000FF;  // Testing
 
         flex: 0 0 28%;
     }
 
     &-number-text-box-3 {
-        background-color: #0000FF;  // Testing
+        // background-color: #0000FF;  // Testing
 
         flex: 0 0 25%;
     }
@@ -406,9 +407,9 @@
         margin: 0 auto;
     }
 
-    &-text-box-2 {
-        background-color: #FF0000;  // Testing
-    }
+    // &-text-box-2 {
+    //     background-color: #FF0000;  // Testing
+    // }
 
     &-text-2 {
         font-size: 2rem;

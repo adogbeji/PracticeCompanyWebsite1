@@ -24,6 +24,40 @@ body {
   color: #000000;
 }
 
+.card {
+  transition: all 0.3s;
+  border-radius: 0.5rem;
+  border: 0.15rem solid #BBB9B9;
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
+  background-color: #FFFFFF;
+}
+.card:hover {
+  box-shadow: 0 0.4rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+}
+.card__header {
+  padding: 1rem;
+  border-bottom: 0.1rem solid #A9A6A6;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: rgb(239.7, 239.7, 239.7);
+}
+.card__body {
+  padding: 1rem;
+}
+.card__footer {
+  padding: 1rem;
+  border-top: 0.1rem solid #A9A6A6;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background-color: rgb(239.7, 239.7, 239.7);
+}
+.card__text-box {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.card__text {
+  font-size: 1.8rem;
+}
+
 .btn {
   font-size: 1.6rem;
   display: inline-block;
@@ -397,27 +431,24 @@ body {
   width: 90%;
   margin: 0 auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 ._0052-sect_4-text-1 {
   font-size: 2.8rem;
 }
 ._0052-sect_4-container {
-  background-color: #FFFF00;
   display: flex;
   justify-content: center;
   column-gap: 1rem;
 }
 ._0052-sect_4-number-text-box-1 {
-  background-color: #0000FF;
   flex: 0 0 30%;
 }
 ._0052-sect_4-number-text-box-2 {
-  background-color: #0000FF;
   flex: 0 0 28%;
 }
 ._0052-sect_4-number-text-box-3 {
-  background-color: #0000FF;
   flex: 0 0 25%;
 }
 ._0052-sect_4-number-box {
@@ -428,9 +459,6 @@ body {
   border: 0.2rem solid #050505;
   font-size: 2.6rem;
   margin: 0 auto;
-}
-._0052-sect_4-text-box-2 {
-  background-color: #FF0000;
 }
 ._0052-sect_4-text-2 {
   font-size: 2rem;
