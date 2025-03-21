@@ -350,7 +350,7 @@
     grid-column: full-start / full-end;
 
     &-text-box-1 {
-        background-color: #FF0000;  // Testing
+        // background-color: #FF0000;  // Testing
         width: 90%;
         margin: 0 auto;
         margin-top: 2rem;
@@ -364,6 +364,7 @@
 
     &-container {
         // background-color: #FFFF00;  // Testing
+        padding: 1rem 0;
 
         display: flex;
         justify-content: center;
@@ -372,7 +373,7 @@
     }
 
     &-number-text-box-1 {
-        // background-color: #0000FF;  // Testing
+        background-color: #0000FF;  // Testing
 
         flex: 0 0 30%;
 
@@ -381,6 +382,8 @@
         // align-items: center;
 
         // flex-direction: column;
+
+        // row-gap: .8rem;  // Creates space betweeen number circle & text (if using first solution above)
     }
 
     &-number-text-box-2 {
@@ -405,11 +408,17 @@
 
         // Second Solution
         margin: 0 auto;
+        // margin-bottom: .8rem;  // Creates space betweeen number circle & text
     }
 
-    // &-text-box-2 {
-    //     background-color: #FF0000;  // Testing
-    // }
+    &-text-box-2 {
+        background-color: #FF0000;  // Testing
+        // text-align: center;
+
+        & > h4 {
+            text-align: center;
+        }
+    }
 
     &-text-2 {
         font-size: 2rem;
