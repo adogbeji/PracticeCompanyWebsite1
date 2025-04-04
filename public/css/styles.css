@@ -475,6 +475,20 @@ body {
   background-color: #FFA500;
   grid-column: full-start/full-end;
 }
+._0052-sect_5-text-box-1 {
+  background-color: #FF0000;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+._0052-sect_5-text-1 {
+  font-size: 2.8rem;
+}
+._0052-sect_5-container {
+  background-color: #FFFF00;
+}
 
 ._0052-sect_6 {
   background-color: #F5F5DC;

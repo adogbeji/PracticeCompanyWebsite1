@@ -433,6 +433,24 @@
 ._0052-sect_5 {
     background-color: #FFA500;
     grid-column: full-start / full-end;
+
+    &-text-box-1 {
+        background-color: #FF0000;  // Testing
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        // margin-bottom: 2rem;
+        margin-bottom: 4rem;  // Creates space between text and number circles
+        text-align: center;
+    }
+
+    &-text-1 {
+        font-size: 2.8rem;
+    }
+
+    &-container {
+        background-color: #FFFF00;  // Testing
+    }
 }
 
 ._0052-sect_6 {
