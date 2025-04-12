@@ -494,12 +494,13 @@ body {
   flex: 0 0 25%;
 }
 ._0052-sect_5-card-photo-box {
-  height: 30rem;
-}
-._0052-sect_5-card-photo {
-  width: 100%;
-  height: auto;
-  display: block;
+  height: 20rem;
+  background-image: url("../images/img-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: fixed;
+  transform: scale(1);
 }
 ._0052-sect_5-card-text-box-2 {
   background-color: #FF0000;
