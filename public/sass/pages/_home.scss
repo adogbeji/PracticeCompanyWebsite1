@@ -460,15 +460,23 @@
             flex: 0 0 25%;
         }
 
-        &-photo-box {
+        &-photo-box-1, &-photo-box-2 {
             height: 20rem;  // Makes image visible (required)
 
-            background-image: url('../images/img-1.jpg');
+            // background-image: url('../images/img-1.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: fixed;
+            background-size: cover;
             transform: scale(1);
+        }
+
+        &-photo-box-1 {
+            background-image: url('../images/img-1.jpg');
+        }
+
+        &-photo-box-2 {
+            background-image: url('../images/img-2.jpg');
         }
 
         // &-photo {

@@ -493,14 +493,19 @@ body {
 ._0052-sect_5-card-1 {
   flex: 0 0 25%;
 }
-._0052-sect_5-card-photo-box {
+._0052-sect_5-card-photo-box-1, ._0052-sect_5-card-photo-box-2 {
   height: 20rem;
-  background-image: url("../images/img-1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: fixed;
+  background-size: cover;
   transform: scale(1);
+}
+._0052-sect_5-card-photo-box-1 {
+  background-image: url("../images/img-1.jpg");
+}
+._0052-sect_5-card-photo-box-2 {
+  background-image: url("../images/img-2.jpg");
 }
 ._0052-sect_5-card-text-box-2 {
   background-color: #FF0000;
