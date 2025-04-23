@@ -454,6 +454,8 @@
 
         display: flex;
         justify-content: center;
+
+        column-gap: 1rem;  // Creates space between cards
     }
 
     &-card {
@@ -466,7 +468,7 @@
             flex: 0 0 28%;
         }
 
-        &-photo-box-1, &-photo-box-2 {
+        &-photo-box-1, &-photo-box-2, &-photo-box-3 {
             height: 20rem;  // Makes image visible (required)
 
             // background-image: url('../images/img-1.jpg');

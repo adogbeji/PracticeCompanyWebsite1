@@ -491,6 +491,7 @@ body {
   padding: 1.6rem 0;
   display: flex;
   justify-content: center;
+  column-gap: 1rem;
 }
 ._0052-sect_5-card-1, ._0052-sect_5-card-2 {
   flex: 0 0 25%;
@@ -498,7 +499,7 @@ body {
 ._0052-sect_5-card-3 {
   flex: 0 0 28%;
 }
-._0052-sect_5-card-photo-box-1, ._0052-sect_5-card-photo-box-2 {
+._0052-sect_5-card-photo-box-1, ._0052-sect_5-card-photo-box-2, ._0052-sect_5-card-photo-box-3 {
   height: 20rem;
   background-position: center center;
   background-repeat: no-repeat;
