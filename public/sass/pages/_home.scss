@@ -365,7 +365,8 @@
 
     &-container {
         // background-color: #FFFF00;  // Testing
-        padding: 1rem 0;
+        // padding: 1rem 0;
+        padding: 1rem 0 2.8rem 0;
 
         display: flex;
         justify-content: center;
@@ -435,7 +436,7 @@
     grid-column: full-start / full-end;
 
     &-text-box-1 {
-        background-color: #FF0000;  // Testing
+        // background-color: #FF0000;  // Testing
         width: 90%;
         margin: 0 auto;
         margin-top: 2rem;
@@ -449,8 +450,9 @@
     }
 
     &-container {
-        background-color: #FFFF00;  // Testing
-        padding: 1.6rem 0;
+        // background-color: #FFFF00;  // Testing
+        // padding: 1.6rem 0;
+        padding: 1.6rem 0 3.8rem 0;
 
         display: flex;
         justify-content: center;
@@ -498,7 +500,7 @@
         // }
 
         &-text-box-2 {
-            background-color: #FF0000;  // Testing
+            // background-color: #FF0000;  // Testing
         }
 
         &-text-2 {

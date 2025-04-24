@@ -437,7 +437,7 @@ body {
   font-size: 2.8rem;
 }
 ._0052-sect_4-container {
-  padding: 1rem 0;
+  padding: 1rem 0 2.8rem 0;
   display: flex;
   justify-content: center;
   column-gap: 1rem;
@@ -476,7 +476,6 @@ body {
   grid-column: full-start/full-end;
 }
 ._0052-sect_5-text-box-1 {
-  background-color: #FF0000;
   width: 90%;
   margin: 0 auto;
   margin-top: 2rem;
@@ -487,8 +486,7 @@ body {
   font-size: 2.8rem;
 }
 ._0052-sect_5-container {
-  background-color: #FFFF00;
-  padding: 1.6rem 0;
+  padding: 1.6rem 0 3.8rem 0;
   display: flex;
   justify-content: center;
   column-gap: 1rem;
@@ -515,9 +513,6 @@ body {
 }
 ._0052-sect_5-card-photo-box-3 {
   background-image: url("../images/img-3.jpg");
-}
-._0052-sect_5-card-text-box-2 {
-  background-color: #FF0000;
 }
 ._0052-sect_5-card-text-2 {
   font-size: 2.4rem;
