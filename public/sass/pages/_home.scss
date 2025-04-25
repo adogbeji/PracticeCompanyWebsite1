@@ -517,6 +517,17 @@
 ._0052-sect_6 {
     background-color: #F5F5DC;
     grid-column: full-start / full-end;
+
+    &-text-box-1 {
+        background-color: #FF0000;  // Testing
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &-text-1 {
+        font-size: 2.8rem;
+    }
 }
 
 ._0052-sect_7 {
