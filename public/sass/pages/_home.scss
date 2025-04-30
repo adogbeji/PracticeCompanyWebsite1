@@ -518,11 +518,18 @@
     background-color: #F5F5DC;
     grid-column: full-start / full-end;
 
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
     &-text-box-1 {
         background-color: #FF0000;  // Testing
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 1rem;
         text-align: center;
+        // padding: 1.2rem 0;
     }
 
     &-text-1 {

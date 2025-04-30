@@ -711,11 +711,15 @@ body {
 ._0052-sect_6 {
   background-color: #F5F5DC;
   grid-column: full-start/full-end;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 ._0052-sect_6-text-box-1 {
   background-color: #FF0000;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 1rem;
   text-align: center;
 }
 ._0052-sect_6-text-1 {
