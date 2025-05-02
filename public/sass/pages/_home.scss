@@ -524,7 +524,7 @@
     flex-direction: column;
 
     &-text-box-1 {
-        background-color: #FF0000;  // Testing
+        // background-color: #FF0000;  // Testing
         width: 90%;
         margin: 0 auto;
         margin-bottom: 1rem;
@@ -537,8 +537,9 @@
     }
 
     &-newsletter-box {
-        background-color: #00FF00;  // Testing
-        width: 90%;
+        // background-color: #00FF00;  // Testing
+        // width: 90%;
+        width: 45%;
         margin: 0 auto;
     }
 }
